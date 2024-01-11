@@ -1,6 +1,40 @@
+
 /*Universal Selector*/
 *{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+  color: #FD6E0A;
+}
+.primary-button{
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #FD6E0A;
+  border:0;
+  font-size: 20px;
+  font-weight: 700;
+  color:#fff;
+  padding:18px 35px;
+}
+/*Nav related style*/
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title{
+  color:#181818;
+  font-family: 'Open Sans', sans-serif;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+nav li{
+  list-style: none;
+  margin-right:50px;
 }
